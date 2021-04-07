@@ -1,0 +1,99 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Vaquinha.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Vaquinha.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vaquinha.Domain.dll": {}
+        }
+      },
+      "Vaquinha.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Vaquinha.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Vaquinha.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vaquinha.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Vaquinha.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Vaquinha.Domain/Vaquinha.Domain.csproj",
+      "msbuildProject": "../Vaquinha.Domain/Vaquinha.Domain.csproj"
+    },
+    "Vaquinha.Repository/1.0.0": {
+      "type": "project",
+      "path": "../Vaquinha.Repository/Vaquinha.Repository.csproj",
+      "msbuildProject": "../Vaquinha.Repository/Vaquinha.Repository.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Vaquinha.Repository >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Cleber\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\DEV\\dotnet-vaquinha-tests-master\\src\\Vaquinha.Service\\Vaquinha.Service.csproj",
+      "projectName": "Vaquinha.Service",
+      "projectPath": "D:\\DEV\\dotnet-vaquinha-tests-master\\src\\Vaquinha.Service\\Vaquinha.Service.csproj",
+      "packagesPath": "C:\\Users\\Cleber\\.nuget\\packages\\",
+      "outputPath": "D:\\DEV\\dotnet-vaquinha-tests-master\\src\\Vaquinha.Service\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Cleber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "D:\\DEV\\dotnet-vaquinha-tests-master\\src\\Vaquinha.Repository\\Vaquinha.Repository.csproj": {
+              "projectPath": "D:\\DEV\\dotnet-vaquinha-tests-master\\src\\Vaquinha.Repository\\Vaquinha.Repository.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}

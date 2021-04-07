@@ -1,0 +1,173 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Vaquinha.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Vaquinha.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vaquinha.Domain.dll": {}
+        }
+      },
+      "Vaquinha.MVC/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Vaquinha.Domain": "1.0.0",
+          "Vaquinha.Service": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Vaquinha.MVC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vaquinha.MVC.dll": {}
+        }
+      },
+      "Vaquinha.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Vaquinha.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Vaquinha.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vaquinha.Repository.dll": {}
+        }
+      },
+      "Vaquinha.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Vaquinha.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Vaquinha.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vaquinha.Service.dll": {}
+        }
+      },
+      "Vaquinha.Tests.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Vaquinha.Domain": "1.0.0",
+          "Vaquinha.MVC": "1.0.0",
+          "Vaquinha.Repository": "1.0.0",
+          "Vaquinha.Service": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Vaquinha.Tests.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vaquinha.Tests.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Vaquinha.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../src/Vaquinha.Domain/Vaquinha.Domain.csproj",
+      "msbuildProject": "../../src/Vaquinha.Domain/Vaquinha.Domain.csproj"
+    },
+    "Vaquinha.MVC/1.0.0": {
+      "type": "project",
+      "path": "../../src/Vaquinha.MVC/Vaquinha.MVC.csproj",
+      "msbuildProject": "../../src/Vaquinha.MVC/Vaquinha.MVC.csproj"
+    },
+    "Vaquinha.Repository/1.0.0": {
+      "type": "project",
+      "path": "../../src/Vaquinha.Repository/Vaquinha.Repository.csproj",
+      "msbuildProject": "../../src/Vaquinha.Repository/Vaquinha.Repository.csproj"
+    },
+    "Vaquinha.Service/1.0.0": {
+      "type": "project",
+      "path": "../../src/Vaquinha.Service/Vaquinha.Service.csproj",
+      "msbuildProject": "../../src/Vaquinha.Service/Vaquinha.Service.csproj"
+    },
+    "Vaquinha.Tests.Common/1.0.0": {
+      "type": "project",
+      "path": "../Vaquinha.Tests.Common/Vaquinha.Tests.Common.csproj",
+      "msbuildProject": "../Vaquinha.Tests.Common/Vaquinha.Tests.Common.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Vaquinha.Domain >= 1.0.0",
+      "Vaquinha.MVC >= 1.0.0",
+      "Vaquinha.Repository >= 1.0.0",
+      "Vaquinha.Service >= 1.0.0",
+      "Vaquinha.Tests.Common >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Cleber\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\DEV\\dotnet-vaquinha-tests-master\\tests\\Vaquinha.Unit.Tests\\Vaquinha.Unit.Tests.csproj",
+      "projectName": "Vaquinha.Unit.Tests",
+      "projectPath": "D:\\DEV\\dotnet-vaquinha-tests-master\\tests\\Vaquinha.Unit.Tests\\Vaquinha.Unit.Tests.csproj",
+      "packagesPath": "C:\\Users\\Cleber\\.nuget\\packages\\",
+      "outputPath": "D:\\DEV\\dotnet-vaquinha-tests-master\\tests\\Vaquinha.Unit.Tests\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Cleber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "D:\\DEV\\dotnet-vaquinha-tests-master\\src\\Vaquinha.Domain\\Vaquinha.Domain.csproj": {
+              "projectPath": "D:\\DEV\\dotnet-vaquinha-tests-master\\src\\Vaquinha.Domain\\Vaquinha.Domain.csproj"
+            },
+            "D:\\DEV\\dotnet-vaquinha-tests-master\\src\\Vaquinha.MVC\\Vaquinha.MVC.csproj": {
+              "projectPath": "D:\\DEV\\dotnet-vaquinha-tests-master\\src\\Vaquinha.MVC\\Vaquinha.MVC.csproj"
+            },
+            "D:\\DEV\\dotnet-vaquinha-tests-master\\src\\Vaquinha.Repository\\Vaquinha.Repository.csproj": {
+              "projectPath": "D:\\DEV\\dotnet-vaquinha-tests-master\\src\\Vaquinha.Repository\\Vaquinha.Repository.csproj"
+            },
+            "D:\\DEV\\dotnet-vaquinha-tests-master\\src\\Vaquinha.Service\\Vaquinha.Service.csproj": {
+              "projectPath": "D:\\DEV\\dotnet-vaquinha-tests-master\\src\\Vaquinha.Service\\Vaquinha.Service.csproj"
+            },
+            "D:\\DEV\\dotnet-vaquinha-tests-master\\tests\\Vaquinha.Tests.Common\\Vaquinha.Tests.Common.csproj": {
+              "projectPath": "D:\\DEV\\dotnet-vaquinha-tests-master\\tests\\Vaquinha.Tests.Common\\Vaquinha.Tests.Common.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}
